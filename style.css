@@ -1,0 +1,163 @@
+.nav-link{
+    color:snow;
+}
+.navbar-nav{
+    left:60%;
+}
+*{
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+.navbar-brand{
+    margin-left:30px;
+}
+nav .container-fluid{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+/* ---------------------------HOME PAGE--------------------------------------------*/
+.abt{
+    background-image: url("./images/img1.jpeg");
+    /*width:1600px; */
+    height: 760px; 
+    top:94px;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#svg{
+    top: 80%;
+    font-size: 27px;
+    color:#FFFFFF;
+    left: 75%;
+    transform: translate(20%, -50%);
+}
+.abt p{
+    margin-top:33px;
+    width: 568px;
+    height: 114px;
+    top:199px;
+    left:64px;
+    font-weight:700px;
+    font-size:44px;
+    color:#000000;
+    font-weight:bold;
+    text-align:center;
+    justify-content: center;
+    display:flex;
+
+}
+a[href="#aboutus"]{
+    border-radius:8px;
+    display:flex;
+    width:140px;
+    height:40px; 
+    justify-content:center ;
+    background:#000000;
+    text-decoration: none;
+    position:relative;
+    color:white;
+    left:5%;
+    top:20%;
+    opacity: 0.6;
+}
+a[href="#aboutus"]:hover{
+    color:white;
+    background-color: #000000;
+    opacity:1;
+}
+.s1{
+    float:left;
+    flex:1;
+}
+.s1:first-child{
+    text-align:center;
+    margin-right:20px;
+    color:#000000;
+    font-weight:700;
+    font-size:36px;
+    float:left;
+    margin-right:0px;
+    width:30%;
+    background: white;
+}
+#tag{
+    margin-top: 120px;
+    color:rgba(0, 0, 0, 0.78);
+    font-weight:700;
+}
+#service{
+    display:flex;
+    justify-content: center;
+}
+.service{
+    display:flex;
+}
+svg{
+    float:right;
+    justify-items: center;
+    margin-top:0px;
+}
+.help{
+    display:flex;
+    justify-content: center;
+    font-weight:700;
+    font-size: 30px;
+    color:#000000;
+}
+a[href="/search"]{
+    text-decoration:none;
+    color:blue;
+    justify-content: center;
+}
+#aboutus{
+    margin-top: 240px;
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.6)),url("./images/img7.jpeg");
+    image-rendering: optimizeQuality pixelated;
+    height:736px;
+    background-size:cover;
+    width:100%;
+    background-repeat:no-repeat;
+}
+#abt-1{
+    text-align: center;
+    color:#FFFFFF;
+    font-weight:700;
+    display:flex;
+    position: absolute;
+    top: 250%;
+    font-size: 44px;
+    left: 44%;
+    transform: translate(-27%, -50%);
+}
+#aboutus h1{
+    font-weight:700;
+    left:42.5%;
+    color:white;
+    justify-content: center;
+    display:flex;
+}
+#text{
+    font-weight:700;
+    color:white;
+    justify-content: center;
+    display:flex;
+    flex-direction: row;
+}
+#abt-2{
+    text-align: center;
+    color:#FFFFFF;
+    font-weight:700;
+    display:flex;
+    top:300%;
+    font-size:27px;
+    left:33%;
+    transform: translate(-25%,-50%);
+    position:relative;
+}
+#f1 svg{
+    height: 40px;
+}
+
+/*--------------------------------------------apply page------------------------------------------------------------------------
