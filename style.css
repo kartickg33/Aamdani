@@ -170,7 +170,6 @@ a[href="/search"]{
     background-repeat: no-repeat;
     background-size: cover;
     display:flex;
-    height:600px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px; 
 }
