@@ -1,3 +1,4 @@
+/*------------------------------- NavBar-------------------------------------------*/ 
 .nav-link{
     color:snow;
 }
@@ -10,6 +11,8 @@
 }
 .navbar-brand{
     margin-left:30px;
+    font-weight:700;
+    font-size:27px;
 }
 nav .container-fluid{
     padding-left: 100px;
@@ -58,8 +61,9 @@ a[href="#aboutus"]{
     text-decoration: none;
     position:relative;
     color:white;
-    left:5%;
-    top:20%;
+     /* left:5%; */
+    transform: translate(30%,20%);
+    /*top:20%; */
     opacity: 0.6;
 }
 a[href="#aboutus"]:hover{
@@ -186,13 +190,15 @@ a[href="/search"]{
     margin-bottom:10px;
 }
 .row{
+    display:flex;
     border-radius: 10%;
+    
 }
 form div{
     margin-top:30px;
 }
 .apply{
-    width:250px;
+    width:302px;
     height: 50px;
     text-align: center;
     color:white;
@@ -212,6 +218,31 @@ form div{
     justify-content: center;
     flex-direction: column;
     margin-top: 20px;
+}
+#name{
+    background-color:darkgrey;
+    color:black;
+    font-weight:bold;
+}
+
+::-webkit-input-placeholder{
+    color:black;
+    font-weight:bold;
+}
+#city{
+    background-color:darkgrey;
+    color:black;
+    font-weight:bold;
+}
+#contact{
+    background-color:darkgrey;
+    color:black;
+    font-weight:bold;
+}
+#age{
+    background-color:darkgrey;
+    color:black;
+    font-weight:bold;
 }
 
 /*----------------------------------------------LOGIN PAGE-------------------------------------------------------- */
@@ -234,7 +265,7 @@ form div{
 .login{
     color:white;
     font-weight: 600;
-    font-size:27px;
+    font-size:20px;
     border-bottom: 0.25rem solid white;
     margin-right:16px;   
 }
@@ -242,7 +273,7 @@ form div{
     color:white;    
 }
 .register{
-    font-size:27px;
+    font-size:20px;
     font-weight:600;
     color:white;
     opacity: 0.4;
@@ -252,7 +283,7 @@ form div{
     color: white;
 }
 .login-submit{
-    width:250px;
+    width:302px;
     height: 50px;
     text-align: center;
     color:white;
@@ -280,7 +311,7 @@ form div{
 .reg{
     color:white;
     font-weight: 600;
-    font-size:27px;
+    font-size:20px;
     border-bottom: 0.25rem solid white;
     margin-left:16px;   
 }
@@ -288,7 +319,7 @@ form div{
     color:white;
 }
 .login_page{
-    font-size:27px;
+    font-size:20px;
     font-weight:600;
     color:white;
     opacity: 0.4;
@@ -299,7 +330,7 @@ form div{
     opacity:0.4;
 }
 .reg-submit{
-    width:250px;
+    width:302px;
     height: 50px;
     text-align: center;
     color:white;
@@ -308,4 +339,27 @@ form div{
     background: #000000;
     border: 3px solid white;
     border-radius: 12px;
+}
+/*----------------------INPUT FIELDS--------------------------------------- */
+#username{
+    color:black;
+    font-weight:bold;
+    background-color: darkgrey;
+}
+
+#password{
+    color:black;
+    font-weight:bold;
+    background-color: darkgrey;
+}
+
+#email{
+    color:black;
+    font-weight:bold;
+    background-color: darkgrey;
+}
+
+.input-group-lg{
+    padding-right: 15px;
+    padding-left: 15px;
 }
