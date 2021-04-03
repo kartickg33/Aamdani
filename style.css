@@ -214,3 +214,98 @@ form div{
     margin-top: 20px;
 }
 
+/*----------------------------------------------LOGIN PAGE-------------------------------------------------------- */
+#login{
+    background:url("./images/img3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px; 
+}
+.login__form{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+
+.login{
+    color:white;
+    font-weight: 600;
+    font-size:27px;
+    border-bottom: 0.25rem solid white;
+    margin-right:16px;   
+}
+.login:hover{
+    color:white;    
+}
+.register{
+    font-size:27px;
+    font-weight:600;
+    color:white;
+    opacity: 0.4;
+}
+.register:hover{
+    border-bottom: 0.25rem solid white;
+    color: white;
+}
+.login-submit{
+    width:250px;
+    height: 50px;
+    text-align: center;
+    color:white;
+    font-weight:400;
+    font-size: 20px;
+    background: #000000;
+    border: 3px solid white;
+    border-radius: 12px;
+}
+/*-----------------------------------------------------REGISTER---------------------------------------------- */
+#register{
+    background:url("./images/img6.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px; 
+}
+.reg-form{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.reg{
+    color:white;
+    font-weight: 600;
+    font-size:27px;
+    border-bottom: 0.25rem solid white;
+    margin-left:16px;   
+}
+.reg:hover{
+    color:white;
+}
+.login_page{
+    font-size:27px;
+    font-weight:600;
+    color:white;
+    opacity: 0.4;
+}
+.login_page:hover{
+    border-bottom: 0.25rem solid white;
+    color:white;
+    opacity:0.4;
+}
+.reg-submit{
+    width:250px;
+    height: 50px;
+    text-align: center;
+    color:white;
+    font-weight:400;
+    font-size: 20px;
+    background: #000000;
+    border: 3px solid white;
+    border-radius: 12px;
+}
