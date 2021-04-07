@@ -184,8 +184,8 @@ a[href="/search"]{
 }
 #h3_apply{
     color:#FFFFFF;
-    font-size: 32px;
-    font-weight:600;
+    font-size: 20px;
+    opacity: 0.85;
     text-align: center;
     margin-bottom:10px;
 }
@@ -195,21 +195,22 @@ a[href="/search"]{
     
 }
 form div{
-    margin-top:30px;
+    margin-top: 20px;
 }
 .apply{
-    width:302px;
+    width: 302px;
     height: 50px;
     text-align: center;
     color:white;
-    font-weight:400;
+    opacity: 0.8;
     font-size: 20px;
     background: #000000;
-    border: 3px solid white;
+    border: 0.25px solid white;
     border-radius: 12px;
 }
 #submit{
-    margin-top:90px;
+    margin-top:60px;
+    padding-bottom: 20px;
     display:flex;
     justify-content: space-around;
 }
@@ -219,30 +220,11 @@ form div{
     flex-direction: column;
     margin-top: 20px;
 }
-#name{
-    background-color:darkgrey;
-    color:black;
-    font-weight:bold;
-}
 
 ::-webkit-input-placeholder{
     color:black;
-    font-weight:bold;
-}
-#city{
-    background-color:darkgrey;
-    color:black;
-    font-weight:bold;
-}
-#contact{
-    background-color:darkgrey;
-    color:black;
-    font-weight:bold;
-}
-#age{
-    background-color:darkgrey;
-    color:black;
-    font-weight:bold;
+    font-weight: lighter;
+    font-size: 16px;
 }
 
 /*----------------------------------------------LOGIN PAGE-------------------------------------------------------- */
@@ -261,25 +243,26 @@ form div{
     margin-top: 20px;
 }
 
-
 .login{
     color:white;
-    font-weight: 600;
+    opacity: 0.85;
     font-size:20px;
-    border-bottom: 0.25rem solid white;
+    border-bottom: 0.25px solid white;
     margin-right:16px;   
+    margin-top: 40px;
 }
 .login:hover{
     color:white;    
 }
 .register{
+    margin-top: 40px;
     font-size:20px;
     font-weight:600;
     color:white;
     opacity: 0.4;
 }
 .register:hover{
-    border-bottom: 0.25rem solid white;
+    border-bottom: 0.25px solid white;
     color: white;
 }
 .login-submit{
@@ -287,11 +270,11 @@ form div{
     height: 50px;
     text-align: center;
     color:white;
-    font-weight:400;
     font-size: 20px;
     background: #000000;
-    border: 3px solid white;
+    border: 0.25px solid white;
     border-radius: 12px;
+    opacity: 0.85;
 }
 /*-----------------------------------------------------REGISTER---------------------------------------------- */
 #register{
@@ -310,22 +293,23 @@ form div{
 }
 .reg{
     color:white;
-    font-weight: 600;
+    opacity: 0.85;
     font-size:20px;
-    border-bottom: 0.25rem solid white;
-    margin-left:16px;   
+    border-bottom: 0.25px solid white;
+    margin-left:16px;
+    margin-top: 40px;  
 }
 .reg:hover{
     color:white;
 }
 .login_page{
     font-size:20px;
-    font-weight:600;
     color:white;
     opacity: 0.4;
+    margin-top: 40px;
 }
 .login_page:hover{
-    border-bottom: 0.25rem solid white;
+    border-bottom: 0.25px solid white;
     color:white;
     opacity:0.4;
 }
@@ -334,32 +318,97 @@ form div{
     height: 50px;
     text-align: center;
     color:white;
-    font-weight:400;
     font-size: 20px;
     background: #000000;
-    border: 3px solid white;
+    border: 0.25px solid white;
     border-radius: 12px;
+    opacity: 0.85;
+    margin-bottom: 40px;
 }
-/*----------------------INPUT FIELDS--------------------------------------- */
+/*-------------------------------INPUT FIELDS--------------------------------------- */
+/* register/login */
 #username{
     color:black;
-    font-weight:bold;
-    background-color: darkgrey;
+    background-color: lightgrey;
 }
 
 #password{
     color:black;
-    font-weight:bold;
-    background-color: darkgrey;
+    background-color: lightgrey;
 }
 
 #email{
     color:black;
+    background-color: lightgrey;
+}
+
+/* create-job */
+#salary{
+    color:black;
+    background-color: lightgrey;
+}
+
+#description{
+    color:black;
+    background-color: lightgrey;
+}
+
+#pincode{
+    color:black;
+    background-color: lightgrey;
+}
+
+#gender{
+    color:black;
+    background-color: lightgrey;
+    font-size: 16px;
+}
+
+#job_title{
+    color: black;
+    background-color: lightgrey;
+    font-size: 16px;
+}
+
+/* apply */
+#city{
+    background-color:lightgrey;
+    color:black;
+}
+#contact{
+    background-color:lightgrey;
+    color:black;
+}
+#age{
+    background-color:lightgrey;
+    color:black;
+}
+
+#name{
+    background-color:lightgrey;
+    color:black;
     font-weight:bold;
-    background-color: darkgrey;
 }
 
 .input-group-lg{
     padding-right: 15px;
     padding-left: 15px;
+}
+
+/*--------------------------------CREATE A JOB---------------------------------------*/
+#create-job{
+    background:url("./images/img14.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px; 
+}
+
+#h3_create_job{
+    color:#FFFFFF;
+    font-size: 20px;
+    opacity: 0.85;
+    text-align: center;
+    margin-bottom:10px;
 }
