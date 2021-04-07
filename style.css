@@ -412,3 +412,37 @@ form div{
     text-align: center;
     margin-bottom:10px;
 }
+/*----------------------Application Response-------------------*/
+
+.tick{
+    float:left;
+    transform: translate(55%,50%);
+}
+
+.response{
+    float:left;
+    transform: translate(55%,70%);
+    font-weight:700;
+    font-size:33px;
+}
+
+ .res1{
+    font-weight:400;
+    font-size:28px;
+    float:left;
+    transform: translate(-35.6%,90%);
+}
+
+.res2{
+    font-weight:400;
+    font-size:20px;
+    float:left;
+    transform: translate(-246.6%,120%);
+}
+
+.res{
+    display:flex;
+    flex-direction:row;
+}
+
+/*----------------------------Dashboard-------------------------------------*/
