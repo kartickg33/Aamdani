@@ -331,64 +331,74 @@ form div{
 #username{
     color:black;
     background-color: lightgrey;
+    font-size: 18px;
 }
 
 #password{
     color:black;
     background-color: lightgrey;
+    font-size: 18px;
 }
 
 #email{
     color:black;
     background-color: lightgrey;
+    font-size: 18px;
 }
 
 /* create-job */
 #salary{
     color:black;
     background-color: lightgrey;
+    font-size: 18px;
 }
 
 #description{
     color:black;
     background-color: lightgrey;
+    font-size: 18px;
 }
 
 #pincode{
     color:black;
     background-color: lightgrey;
+    font-size: 18px;
 }
 
 #gender{
     color:black;
     background-color: lightgrey;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #job_title{
     color: black;
     background-color: lightgrey;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /* apply */
 #city{
-    background-color:lightgrey;
-    color:black;
+    background-color: lightgrey;
+    color: black;
+    font-size: 18px;
 }
 #contact{
     background-color:lightgrey;
     color:black;
+    font-size: 18px;
 }
 #age{
     background-color:lightgrey;
     color:black;
+    font-size: 18px;
 }
 
 #name{
     background-color:lightgrey;
     color:black;
     font-weight:bold;
+    font-size: 18px;
 }
 
 .input-group-lg{
