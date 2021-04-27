@@ -367,7 +367,7 @@ form div{
 }
 
 #job_title{
-    color: black;
+    color:black;
     background-color: lightgrey;
     font-size: 16px;
 }
@@ -487,27 +487,6 @@ select option{
     background: #000000;
     border: 3px solid white;
     border-radius: 12px;
-}
-
-#gender{
-    background-color:darkgrey;
-    color:black;
-    font-weight:bold;
-}
-#salary{
-    background-color:darkgrey;
-    color:black;
-    font-weight:bold;
-}
-#pincode{
-    background-color:darkgrey;
-    color:black;
-    font-weight:bold;
-}
-#description{
-    background-color:darkgrey;
-    color:black;
-    font-weight:bold;
 }
 
 .job_grid{
