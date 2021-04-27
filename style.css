@@ -177,7 +177,8 @@ a[href="/search"]{
     background-size: cover;
     display:flex;
     border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px; 
+    border-bottom-left-radius: 12px;
+    height:600px; 
 }
 #form{
     background:#000000;
@@ -237,6 +238,7 @@ form div{
     display:flex;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px; 
+    height:600px;
 }
 .login__form{
     display:flex;
@@ -285,7 +287,8 @@ form div{
     background-size: cover;
     display:flex;
     border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px; 
+    border-bottom-left-radius: 12px;
+    height: 600px; 
 }
 .reg-form{
     display:flex;
@@ -393,8 +396,8 @@ form div{
 }
 
 .input-group-lg{
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 /*--------------------------------CREATE A JOB---------------------------------------*/
@@ -468,7 +471,7 @@ form div{
 }
 #title{
     background-color:darkgrey;
-    color:black;
+    color:black; 
     font-weight:bold;
 }
 select option{
