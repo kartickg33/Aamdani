@@ -53,19 +53,20 @@ nav .container-fluid{
 
 }
 a[href="#aboutus"]{
-    border-radius:8px;
+    border-radius:5px;
     display:flex;
-    width:140px;
-    height:40px; 
+    width:180px;
+    height:50px; 
     justify-content:center ;
     background:#000000;
     text-decoration: none;
     position:relative;
     color:white;
-     /* left:5%; */
+    font-size: 24px;
+    font-weight: lighter;
     transform: translate(30%,20%);
-    /*top:20%; */
     opacity: 0.6;
+    top: -35px;
 }
 a[href="#aboutus"]:hover{
     color:white;
@@ -331,64 +332,114 @@ form div{
 #username{
     color:black;
     background-color: lightgrey;
+<<<<<<< HEAD
+=======
+    font-size: 18px;
+>>>>>>> 3155b0493b495d809fbcb1308a0224c53c1bd485
 }
 
 #password{
     color:black;
     background-color: lightgrey;
+<<<<<<< HEAD
+=======
+    font-size: 18px;
+>>>>>>> 3155b0493b495d809fbcb1308a0224c53c1bd485
 }
 
 #email{
     color:black;
     background-color: lightgrey;
+<<<<<<< HEAD
+=======
+    font-size: 18px;
+>>>>>>> 3155b0493b495d809fbcb1308a0224c53c1bd485
 }
 
 /* create-job */
 #salary{
     color:black;
     background-color: lightgrey;
+<<<<<<< HEAD
+=======
+    font-size: 18px;
+>>>>>>> 3155b0493b495d809fbcb1308a0224c53c1bd485
 }
 
 #description{
     color:black;
     background-color: lightgrey;
+<<<<<<< HEAD
+=======
+    font-size: 18px;
+>>>>>>> 3155b0493b495d809fbcb1308a0224c53c1bd485
 }
 
 #pincode{
     color:black;
     background-color: lightgrey;
+<<<<<<< HEAD
+=======
+    font-size: 18px;
+>>>>>>> 3155b0493b495d809fbcb1308a0224c53c1bd485
 }
 
 #gender{
     color:black;
     background-color: lightgrey;
+<<<<<<< HEAD
     font-size: 16px;
+=======
+    font-size: 18px;
+>>>>>>> 3155b0493b495d809fbcb1308a0224c53c1bd485
 }
 
 #job_title{
     color: black;
     background-color: lightgrey;
+<<<<<<< HEAD
     font-size: 16px;
+=======
+    font-size: 18px;
+>>>>>>> 3155b0493b495d809fbcb1308a0224c53c1bd485
 }
 
 /* apply */
 #city{
+<<<<<<< HEAD
     background-color:lightgrey;
     color:black;
+=======
+    background-color: lightgrey;
+    color: black;
+    font-size: 18px;
+>>>>>>> 3155b0493b495d809fbcb1308a0224c53c1bd485
 }
 #contact{
     background-color:lightgrey;
     color:black;
+<<<<<<< HEAD
+=======
+    font-size: 18px;
+>>>>>>> 3155b0493b495d809fbcb1308a0224c53c1bd485
 }
 #age{
     background-color:lightgrey;
     color:black;
+<<<<<<< HEAD
+=======
+    font-size: 18px;
+>>>>>>> 3155b0493b495d809fbcb1308a0224c53c1bd485
 }
 
 #name{
     background-color:lightgrey;
     color:black;
     font-weight:bold;
+<<<<<<< HEAD
+=======
+    font-size: 18px;
+>>>>>>> 3155b0493b495d809fbcb1308a0224c53c1bd485
 }
 
 .input-group-lg{
@@ -413,7 +464,11 @@ form div{
     text-align: center;
     margin-bottom:10px;
 }
+<<<<<<< HEAD
 /*----------------------Application Response-------------------*/
+=======
+/*--------------------------------Application Response-------------------------------*/
+>>>>>>> 3155b0493b495d809fbcb1308a0224c53c1bd485
 
 .tick{
     float:left;
@@ -446,6 +501,7 @@ form div{
     flex-direction:row;
 }
 
+<<<<<<< HEAD
 
 /*----------------------------Dashboard-------------------------------------*/
 #dashboard{
@@ -659,3 +715,40 @@ div.col:hover img{
 } */
 
 
+=======
+/*------------------------------------------Dashboard----------------------------------------*/
+
+/*------------------------------------------Applicants---------------------------------------*/
+.intro_to_applicants{
+    font-size: 30px;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.applicants-table{
+    margin-left: 130px;
+    margin-top: 40px;
+}
+
+.applicants-heading{
+    font-size: 22px;
+    font-weight: light;
+    background: rgba(0, 0, 0, 0.78);
+    box-sizing: border-box;
+    border: 1px solid #C4C4C4;
+    width: 298px;
+    height: 80px;
+    text-align: center;
+    color: #C4C4C4;
+}
+
+.applicants-data{
+    font-size: 22px;
+    background: #C4C4C4;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    box-sizing: border-box;
+    width: 298px;
+    height: 80px;
+    text-align: center;
+}
+>>>>>>> 3155b0493b495d809fbcb1308a0224c53c1bd485
