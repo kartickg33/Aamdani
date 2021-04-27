@@ -1,3 +1,4 @@
+
 /*------------------------------- NavBar-------------------------------------------*/ 
 .nav-link{
     color:snow;
@@ -184,8 +185,8 @@ a[href="/search"]{
 }
 #h3_apply{
     color:#FFFFFF;
-    font-size: 32px;
-    font-weight:600;
+    font-size: 20px;
+    opacity: 0.85;
     text-align: center;
     margin-bottom:10px;
 }
@@ -195,21 +196,22 @@ a[href="/search"]{
     
 }
 form div{
-    margin-top:30px;
+    margin-top: 20px;
 }
 .apply{
-    width:302px;
+    width: 302px;
     height: 50px;
     text-align: center;
     color:white;
-    font-weight:400;
+    opacity: 0.8;
     font-size: 20px;
     background: #000000;
-    border: 3px solid white;
+    border: 0.25px solid white;
     border-radius: 12px;
 }
 #submit{
-    margin-top:90px;
+    margin-top:60px;
+    padding-bottom: 20px;
     display:flex;
     justify-content: space-around;
 }
@@ -219,30 +221,11 @@ form div{
     flex-direction: column;
     margin-top: 20px;
 }
-#name{
-    background-color:darkgrey;
-    color:black;
-    font-weight:bold;
-}
 
 ::-webkit-input-placeholder{
     color:black;
-    font-weight:bold;
-}
-#city{
-    background-color:darkgrey;
-    color:black;
-    font-weight:bold;
-}
-#contact{
-    background-color:darkgrey;
-    color:black;
-    font-weight:bold;
-}
-#age{
-    background-color:darkgrey;
-    color:black;
-    font-weight:bold;
+    font-weight: lighter;
+    font-size: 16px;
 }
 
 /*----------------------------------------------LOGIN PAGE-------------------------------------------------------- */
@@ -261,25 +244,26 @@ form div{
     margin-top: 20px;
 }
 
-
 .login{
     color:white;
-    font-weight: 600;
+    opacity: 0.85;
     font-size:20px;
-    border-bottom: 0.25rem solid white;
+    border-bottom: 0.25px solid white;
     margin-right:16px;   
+    margin-top: 40px;
 }
 .login:hover{
     color:white;    
 }
 .register{
+    margin-top: 40px;
     font-size:20px;
     font-weight:600;
     color:white;
     opacity: 0.4;
 }
 .register:hover{
-    border-bottom: 0.25rem solid white;
+    border-bottom: 0.25px solid white;
     color: white;
 }
 .login-submit{
@@ -287,11 +271,11 @@ form div{
     height: 50px;
     text-align: center;
     color:white;
-    font-weight:400;
     font-size: 20px;
     background: #000000;
-    border: 3px solid white;
+    border: 0.25px solid white;
     border-radius: 12px;
+    opacity: 0.85;
 }
 /*-----------------------------------------------------REGISTER---------------------------------------------- */
 #register{
@@ -310,22 +294,23 @@ form div{
 }
 .reg{
     color:white;
-    font-weight: 600;
+    opacity: 0.85;
     font-size:20px;
-    border-bottom: 0.25rem solid white;
-    margin-left:16px;   
+    border-bottom: 0.25px solid white;
+    margin-left:16px;
+    margin-top: 40px;  
 }
 .reg:hover{
     color:white;
 }
 .login_page{
     font-size:20px;
-    font-weight:600;
     color:white;
     opacity: 0.4;
+    margin-top: 40px;
 }
 .login_page:hover{
-    border-bottom: 0.25rem solid white;
+    border-bottom: 0.25px solid white;
     color:white;
     opacity:0.4;
 }
@@ -334,34 +319,99 @@ form div{
     height: 50px;
     text-align: center;
     color:white;
-    font-weight:400;
     font-size: 20px;
     background: #000000;
-    border: 3px solid white;
+    border: 0.25px solid white;
     border-radius: 12px;
+    opacity: 0.85;
+    margin-bottom: 40px;
 }
-/*----------------------INPUT FIELDS--------------------------------------- */
+/*-------------------------------INPUT FIELDS--------------------------------------- */
+/* register/login */
 #username{
     color:black;
-    font-weight:bold;
-    background-color: darkgrey;
+    background-color: lightgrey;
 }
 
 #password{
     color:black;
-    font-weight:bold;
-    background-color: darkgrey;
+    background-color: lightgrey;
 }
 
 #email{
     color:black;
+    background-color: lightgrey;
+}
+
+/* create-job */
+#salary{
+    color:black;
+    background-color: lightgrey;
+}
+
+#description{
+    color:black;
+    background-color: lightgrey;
+}
+
+#pincode{
+    color:black;
+    background-color: lightgrey;
+}
+
+#gender{
+    color:black;
+    background-color: lightgrey;
+    font-size: 16px;
+}
+
+#job_title{
+    color: black;
+    background-color: lightgrey;
+    font-size: 16px;
+}
+
+/* apply */
+#city{
+    background-color:lightgrey;
+    color:black;
+}
+#contact{
+    background-color:lightgrey;
+    color:black;
+}
+#age{
+    background-color:lightgrey;
+    color:black;
+}
+
+#name{
+    background-color:lightgrey;
+    color:black;
     font-weight:bold;
-    background-color: darkgrey;
 }
 
 .input-group-lg{
     padding-right: 15px;
     padding-left: 15px;
+}
+
+/*--------------------------------CREATE A JOB---------------------------------------*/
+#create-job{
+    background:url("./images/img14.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px; 
+}
+
+#h3_create_job{
+    color:#FFFFFF;
+    font-size: 20px;
+    opacity: 0.85;
+    text-align: center;
+    margin-bottom:10px;
 }
 /*----------------------Application Response-------------------*/
 
@@ -396,4 +446,216 @@ form div{
     flex-direction:row;
 }
 
+
 /*----------------------------Dashboard-------------------------------------*/
+#dashboard{
+    background:url("./images/img14.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px; 
+}
+
+.dash{
+    display:flex;
+    flex-direction:column;
+}
+
+.d1{
+    transform: translate(-2.7%);
+}
+#title{
+    background-color:darkgrey;
+    color:black;
+    font-weight:bold;
+}
+select option{
+    background-color:darkgrey;
+    color:black;
+    font-weight:bold;
+}
+
+.submit_job{
+    width:302px;
+    height: 50px;
+    text-align: center;
+    color:white;
+    font-weight:400;
+    font-size: 20px;
+    background: #000000;
+    border: 3px solid white;
+    border-radius: 12px;
+}
+
+#gender{
+    background-color:darkgrey;
+    color:black;
+    font-weight:bold;
+}
+#salary{
+    background-color:darkgrey;
+    color:black;
+    font-weight:bold;
+}
+#pincode{
+    background-color:darkgrey;
+    color:black;
+    font-weight:bold;
+}
+#description{
+    background-color:darkgrey;
+    color:black;
+    font-weight:bold;
+}
+
+.job_grid{
+    border-radius: 12px;
+    width:300px;
+    height:400px;
+    object-fit: cover;
+}
+#view_btn{
+    margin-top:40px;
+    display:none;
+    transition: 0.3s;
+    border: 2px solid white;
+    background:rgba(0, 0, 0, 0.78);
+    opacity: 0.7;
+    color:white;
+    font-weight: bold;
+}
+#job_desc{
+    color:white;
+    display:none;
+    background: rgba(0, 0, 0, 0.78);
+    opacity: 0.9;
+    height: 36%;
+    border-radius: 12px;
+    width:300px;
+    transform: translateY(50%);
+    font-weight: bold;
+}
+#grid_cont{
+    background: url('./images/chef.jpeg');
+    border-radius: 12px;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 300px;
+}
+.grid_2{
+    background: url('./images/sweeper.jpeg');
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 300px;
+    border-radius: 12px;
+}
+.grid_3{
+    background: url('./images/elec.jpeg');
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 300px;
+    border-radius: 12px;
+}
+.grid_4{
+    background: url('./images/plumber.png');
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 300px;
+    border-radius: 12px;
+}
+.grid_5{
+    background: url('./images/driver.jpeg');
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 300px;
+    border-radius: 12px;
+}
+.grid_6{
+    background: url('./images/daily.jpeg');
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 300px;
+    border-radius: 12px;
+}
+#col-grid:hover #view_btn{
+    display:block;
+    transition: 0.3s;
+    position:absolute;
+    left:12%;
+
+}
+#col-grid-2:hover #view_btn{
+    display:block;
+    transition: 0.3s;
+    position:absolute;
+    left:44.3%;
+
+}
+#col-grid-3:hover #view_btn{
+    display:block;
+    transition: 0.3s;
+    position:absolute;
+    left:76.3%;
+
+}
+#col-grid-4:hover #view_btn{
+    display:block;
+    transition: 0.3s;
+    position:absolute;
+    left:76.3%;
+
+}
+#col-grid-5:hover #view_btn{
+    display:block;
+    transition: 0.3s;
+    position:absolute;
+    left:76.3%;
+
+}
+#col-grid-6:hover #view_btn{
+    display:block;
+    transition: 0.3s;
+    position:absolute;
+    left:76.3%;
+
+}
+/* #col-grid:hover #job_desc{
+    
+    display:block;
+    transition: 0.3s;
+    position: absolute;
+    left:10%;
+} */
+#col-grid-2:hover #job_desc{
+    
+    display:block;
+    transition: 0.3s;
+    position: absolute;
+    left:40%;
+}
+/* #col-grid-3:hover #job_desc{
+    
+    display:block;
+    transition: 0.3s;
+    position: absolute;
+    left:70%;
+} */
+/* .applicants{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    color:white;
+    opacity: 0.8;
+    font-size: 15px;
+    background: #000000;
+    border: 0.25px solid white;
+    border-radius: 12px;
+    transform: translate(-157%,-230%);
+    display:none;
+}
+div.col:hover img{
+    display:block;
+} */
+
+
