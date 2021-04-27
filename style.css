@@ -518,6 +518,7 @@ select option{
     width:300px;
     transform: translateY(50%);
     font-weight: bold;
+    text-align: center;
 }
 #grid_cont{
     background: url('./images/chef.jpeg');
@@ -533,21 +534,21 @@ select option{
     width: 300px;
     border-radius: 12px;
 }
-.grid_3{
+#grid_3{
     background: url('./images/elec.jpeg');
     background-size: cover;
     background-position: 50% 50%;
     width: 300px;
     border-radius: 12px;
 }
-.grid_4{
+#grid-4{
     background: url('./images/plumber.png');
     background-size: cover;
     background-position: 50% 50%;
     width: 300px;
     border-radius: 12px;
 }
-.grid_5{
+.grid-5{
     background: url('./images/driver.jpeg');
     background-size: cover;
     background-position: 50% 50%;
@@ -586,14 +587,14 @@ select option{
     display:block;
     transition: 0.3s;
     position:absolute;
-    left:76.3%;
+    left:12%;
 
 }
 #col-grid-5:hover #view_btn{
     display:block;
     transition: 0.3s;
     position:absolute;
-    left:76.3%;
+    left:44.3%;
 
 }
 #col-grid-6:hover #view_btn{
@@ -603,19 +604,47 @@ select option{
     left:76.3%;
 
 }
-/* #col-grid:hover #job_desc{
+#col-grid:hover #job_desc{
     
     display:block;
     transition: 0.3s;
     position: absolute;
-    left:10%;
-} */
+    left:7.9%;
+} 
+#col-grid-4:hover #job_desc{
+    
+    display:block;
+    transition: 0.3s;
+    position: absolute;
+    left:7.9%;
+} 
 #col-grid-2:hover #job_desc{
     
     display:block;
     transition: 0.3s;
     position: absolute;
     left:40%;
+}
+#col-grid-5:hover #job_desc{
+    
+    display:block;
+    transition: 0.3s;
+    position: absolute;
+    left:40%;
+}
+#col-grid-3:hover #job_desc{
+    
+    display:block;
+    transition: 0.3s;
+    position: absolute;
+    left:72%;
+}
+#col-grid-6:hover #job_desc{
+    
+    display:block;
+    transition: 0.3s;
+    position: absolute;
+    left:72%;
 }
 /* #col-grid-3:hover #job_desc{
     
