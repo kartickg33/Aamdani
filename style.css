@@ -810,14 +810,14 @@ div.col:hover img{
 
 /* ----------------------- SEARCH ---------------------- */
 .search_form{
-    margin-top: 100px;
-    margin-bottom: 200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     /* text-align: center; */
 }
 #job_lookup{
     float: left;
     width: 300px;
-    margin-left: 350px;
+    margin-left: 365px;
     height: 50px;
     border-radius: 10px;
     border: none;
@@ -833,4 +833,7 @@ div.col:hover img{
     background: #C4C4C4;
     padding-left: 10px;
     opacity: 0.85;
+}
+input:focus{
+    outline: none;
 }
