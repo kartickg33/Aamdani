@@ -499,7 +499,7 @@ select option{
     height:400px;
     object-fit: cover;
 }
-#view_btn{
+#view_btn, #apply_btn{
     margin-top:40px;
     display:none;
     transition: 0.3s;
@@ -563,42 +563,42 @@ select option{
     width: 300px;
     border-radius: 12px;
 }
-#col-grid:hover #view_btn{
+#col-grid:hover #view_btn, #col-grid:hover #apply_btn{
     display:block;
     transition: 0.3s;
     position:absolute;
     left:12%;
 
 }
-#col-grid-2:hover #view_btn{
+#col-grid-2:hover #view_btn, #col-grid-2:hover #apply_btn{
     display:block;
     transition: 0.3s;
     position:absolute;
     left:44.3%;
 
 }
-#col-grid-3:hover #view_btn{
+#col-grid-3:hover #view_btn, #col-grid-3:hover #apply_btn{
     display:block;
     transition: 0.3s;
     position:absolute;
     left:76.3%;
 
 }
-#col-grid-4:hover #view_btn{
+#col-grid-4:hover #view_btn, #col-grid-4:hover #apply_btn{
     display:block;
     transition: 0.3s;
     position:absolute;
     left:12%;
 
 }
-#col-grid-5:hover #view_btn{
+#col-grid-5:hover #view_btn, #col-grid-5:hover #apply_btn{
     display:block;
     transition: 0.3s;
     position:absolute;
     left:44.3%;
 
 }
-#col-grid-6:hover #view_btn{
+#col-grid-6:hover #view_btn, #col-grid-6:hover #apply_btn{
     display:block;
     transition: 0.3s;
     position:absolute;
