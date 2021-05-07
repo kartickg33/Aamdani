@@ -363,6 +363,10 @@ form div{
     color:black;
     background-color: lightgrey;
 }
+#date{
+    color:black;
+    background-color: lightgrey;
+}
 
 #gender{
     color:black;
@@ -403,7 +407,7 @@ form div{
 
 /*--------------------------------CREATE A JOB---------------------------------------*/
 #create-job{
-    background:url("./images/img14.jpeg");
+    background:url("./images/driver.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     display:flex;
@@ -493,160 +497,6 @@ select option{
     border-radius: 12px;
 }
 
-.job_grid{
-    border-radius: 12px;
-    width:300px;
-    height:400px;
-    object-fit: cover;
-}
-#view_btn, #apply_btn{
-    margin-top:40px;
-    display:none;
-    transition: 0.3s;
-    border: 2px solid white;
-    background:rgba(0, 0, 0, 0.78);
-    opacity: 0.7;
-    color:white;
-    font-weight: bold;
-}
-#job_desc{
-    color:white;
-    display:none;
-    background: rgba(0, 0, 0, 0.78);
-    opacity: 0.9;
-    height: 36%;
-    border-radius: 12px;
-    width:300px;
-    transform: translateY(50%);
-    font-weight: bold;
-    text-align: center;
-}
-#grid_cont{
-    background: url('./images/chef.jpeg');
-    border-radius: 12px;
-    background-size: cover;
-    background-position: 50% 50%;
-    width: 300px;
-}
-.grid_2{
-    background: url('./images/sweeper.jpeg');
-    background-size: cover;
-    background-position: 50% 50%;
-    width: 300px;
-    border-radius: 12px;
-}
-#grid_3{
-    background: url('./images/elec.jpeg');
-    background-size: cover;
-    background-position: 50% 50%;
-    width: 300px;
-    border-radius: 12px;
-}
-#grid-4{
-    background: url('./images/plumber.png');
-    background-size: cover;
-    background-position: 50% 50%;
-    width: 300px;
-    border-radius: 12px;
-}
-.grid-5{
-    background: url('./images/driver.jpeg');
-    background-size: cover;
-    background-position: 50% 50%;
-    width: 300px;
-    border-radius: 12px;
-}
-.grid_6{
-    background: url('./images/daily.jpeg');
-    background-size: cover;
-    background-position: 50% 50%;
-    width: 300px;
-    border-radius: 12px;
-}
-#col-grid:hover #view_btn, #col-grid:hover #apply_btn{
-    display:block;
-    transition: 0.3s;
-    position:absolute;
-    left:12%;
-
-}
-#col-grid-2:hover #view_btn, #col-grid-2:hover #apply_btn{
-    display:block;
-    transition: 0.3s;
-    position:absolute;
-    left:44.3%;
-
-}
-#col-grid-3:hover #view_btn, #col-grid-3:hover #apply_btn{
-    display:block;
-    transition: 0.3s;
-    position:absolute;
-    left:76.3%;
-
-}
-#col-grid-4:hover #view_btn, #col-grid-4:hover #apply_btn{
-    display:block;
-    transition: 0.3s;
-    position:absolute;
-    left:12%;
-
-}
-#col-grid-5:hover #view_btn, #col-grid-5:hover #apply_btn{
-    display:block;
-    transition: 0.3s;
-    position:absolute;
-    left:44.3%;
-
-}
-#col-grid-6:hover #view_btn, #col-grid-6:hover #apply_btn{
-    display:block;
-    transition: 0.3s;
-    position:absolute;
-    left:76.3%;
-
-}
-#col-grid:hover #job_desc{
-    
-    display:block;
-    transition: 0.3s;
-    position: absolute;
-    left:7.9%;
-} 
-#col-grid-4:hover #job_desc{
-    
-    display:block;
-    transition: 0.3s;
-    position: absolute;
-    left:7.9%;
-} 
-#col-grid-2:hover #job_desc{
-    
-    display:block;
-    transition: 0.3s;
-    position: absolute;
-    left:40%;
-}
-#col-grid-5:hover #job_desc{
-    
-    display:block;
-    transition: 0.3s;
-    position: absolute;
-    left:40%;
-}
-#col-grid-3:hover #job_desc{
-    
-    display:block;
-    transition: 0.3s;
-    position: absolute;
-    left:72%;
-}
-#col-grid-6:hover #job_desc{
-    
-    display:block;
-    transition: 0.3s;
-    position: absolute;
-    left:72%;
-}
 
 .logoutbutton{
     margin: 100px;
@@ -660,30 +510,6 @@ select option{
     height: 72px;
     color: #C4C4C4;
 }
-
-/* #col-grid-3:hover #job_desc{
-    
-    display:block;
-    transition: 0.3s;
-    position: absolute;
-    left:70%;
-} */
-/* .applicants{
-    width: 150px;
-    height: 50px;
-    text-align: center;
-    color:white;
-    opacity: 0.8;
-    font-size: 15px;
-    background: #000000;
-    border: 0.25px solid white;
-    border-radius: 12px;
-    transform: translate(-157%,-230%);
-    display:none;
-}
-div.col:hover img{
-    display:block;
-} */
 
 
 /* ---------------------------------FOOTER----------------------------------- */
@@ -837,3 +663,170 @@ div.col:hover img{
 input:focus{
     outline: none;
 }
+
+/* new dashboard grid */
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+  }
+  ul .booking-card {
+    display:none;
+    position: relative;
+    width: 300px;
+    display: flex;
+    flex: 0 0 300px;
+    flex-direction: column;
+    margin: 50px;
+    padding:0;
+    margin-bottom: 30px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    transition: .3s;
+  }
+  ul .booking-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(10, 72, 112, 0);
+    transition: .3s;
+  }
+  ul .booking-card .book-container {
+    height: 200px;
+  }
+  ul .booking-card .book-container .content {
+    position: relative;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    transform: translateY(-100px);
+    transition: .3s;
+  }
+  ul .booking-card .book-container .content .btn {
+    border: 1px solid white;
+    padding: 10px 15px;
+    background: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    outline: none;
+    color: white;
+    background-color: #000000;
+    cursor: pointer;
+    transition: .3s;
+    opacity:0.8;
+  }
+  ul .booking-card .book-container .content .btn:hover {
+    background: lightgray;
+    border: 0px solid white;
+    color: #000000;
+    opacity:0.8;
+  }
+  ul .booking-card .informations-container {
+    flex: 1 0 auto;
+    padding: 20px;
+    border-top-left-radius:60px ;
+    border-top-right-radius:60px ;
+    background: #0000;
+    transform: translateY(206px);
+    transition: .3s;
+    opacity:0.4;
+    color:white;
+    font-weight: 700;
+    opacity:0.8;
+  }
+  ul .booking-card .informations-container .title {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 2.2em;
+    background: transparent;
+    color:snow;
+    opacity:1;
+  }
+
+  ul .booking-card .informations-container .title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    width: 50px;
+    margin: auto;
+    background: snow;
+    opacity:0.8;
+    margin-bottom:3px;
+  }
+  ul .booking-card .informations-container .price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  ul .booking-card .informations-container .price .icon {
+    margin-right: 10px;
+  }
+  ul .booking-card .informations-container .more-information {
+    opacity: 0;
+    transition: .3s;
+  }
+  ul .booking-card .informations-container .more-information .info-and-date-container {
+    display: flex;
+  }
+  ul .booking-card .informations-container .more-information .info-and-date-container .box {
+    flex: 1 0;
+    padding: 15px;
+    margin-top: 20px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    background: white;
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+  ul .booking-card .informations-container .more-information .info-and-date-container .box .icon {
+    margin-bottom: 5px;
+  }
+  ul .booking-card .informations-container .more-information .info-and-date-container .box.info {
+    color: #ec992c;
+    margin-right: 10px;
+  }
+  ul .booking-card .informations-container .more-information .disclaimer {
+    margin-top: 20px;
+    font-size: 1.4em;
+  }
+  ul .booking-card:hover::before {
+    background: rgba(0, 0, 0, 0.88);
+    opacity:1;
+    color:white;
+    font-weight: 700;
+  }
+  ul .booking-card:hover .book-container .content {
+    opacity: 0.9;
+    transform: translateY(0px);
+  }
+  ul .booking-card:hover .informations-container {
+    transform: translateY(0px);
+  }
+  ul .booking-card:hover .informations-container .more-information {
+    opacity: 1;
+  }
+  /* .informations-container h2:hover{
+    display:block;
+    color:#0a4870;
+    font-size: 30px;
+  } */
