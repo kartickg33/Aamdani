@@ -741,10 +741,10 @@ ul {
   ul .booking-card .informations-container {
     flex: 1 0 auto;
     padding: 20px;
-    border-top-left-radius:60px ;
-    border-top-right-radius:60px ;
+    border-top-left-radius:0px ;
+    border-top-right-radius:0px ;
     background: #0000;
-    transform: translateY(206px);
+    transform: translateY(190px);
     transition: .3s;
     opacity:0.4;
     color:white;
