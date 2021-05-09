@@ -645,28 +645,49 @@ select option{
     /* text-align: center; */
 }
 #job_lookup{
-    float: left;
-    width: 300px;
-    margin-left: 365px;
+    float:left;
+    width: 250px;
+    margin-left: 180px;
     height: 50px;
     border-radius: 10px;
-    border: none;
     background: #C4C4C4;
+    text-align: center;
+    opacity:0.85;
+    text-align-last: center;
+    border: none;
+    appearance: none;
 }
-#pincode_lookup{
-    /* float: left; */
-    width: 300px;
-    margin-left: 100px;
+#job_lookup option{
+    align-self: center;
+    text-align: center;
+}
+#pincode_lookup{ 
+    width: 250px;
+    margin-left: 150px;
     height: 50px;
     border-radius: 10px;
     border: none;
     background: #C4C4C4;
-    padding-left: 10px;
+    text-align: center;
     opacity: 0.85;
+    /* transform:translateX(200%);
+    transform: translateY(10%); */
 }
-input:focus{
-    outline: none;
+.search_btn{
+    width:250px;
+    height:50px;
+    border-radius: 10px;
+    margin-left:150px;
+    text-align: center;
+    color:white;
+    opacity: 0.8;
+    background: #000000;
+    border: none;
+    padding:none;
 }
+#pincode_lookup:focus , .search_btn:focus, #job_lookup:focus, input:focus{
+    outline:none;
+} 
 
 /* new dashboard grid */
 ul {
@@ -675,7 +696,7 @@ ul {
     list-style: none;
     padding: 0;
   }
-  ul .booking-card {
+ul .booking-card {
     display:none;
     position: relative;
     width: 300px;
@@ -693,8 +714,8 @@ ul {
     background-size: cover;
     text-align: center;
     transition: .3s;
-  }
-  ul .booking-card::before {
+}
+ul .booking-card::before {
     content: '';
     position: absolute;
     top: 0;
@@ -703,11 +724,11 @@ ul {
     bottom: 0;
     background: rgba(10, 72, 112, 0);
     transition: .3s;
-  }
-  ul .booking-card .book-container {
+}
+ul .booking-card .book-container {
     height: 200px;
-  }
-  ul .booking-card .book-container .content {
+}
+ul .booking-card .book-container .content {
     position: relative;
     opacity: 0;
     display: flex;
@@ -717,8 +738,8 @@ ul {
     width: 100%;
     transform: translateY(-100px);
     transition: .3s;
-  }
-  ul .booking-card .book-container .content .btn {
+}
+ul .booking-card .book-container .content .btn {
     border: 1px solid white;
     padding: 10px 15px;
     background: none;
@@ -731,14 +752,14 @@ ul {
     cursor: pointer;
     transition: .3s;
     opacity:0.8;
-  }
-  ul .booking-card .book-container .content .btn:hover {
+}
+ul .booking-card .book-container .content .btn:hover {
     background: lightgray;
     border: 0px solid white;
     color: #000000;
     opacity:0.8;
-  }
-  ul .booking-card .informations-container {
+}
+ul .booking-card .informations-container {
     flex: 1 0 auto;
     padding: 20px;
     border-top-left-radius:0px ;
@@ -750,8 +771,8 @@ ul {
     color:white;
     font-weight: 700;
     opacity:0.8;
-  }
-  ul .booking-card .informations-container .title {
+}
+ul .booking-card .informations-container .title {
     position: relative;
     padding-bottom: 10px;
     margin-bottom: 10px;
@@ -760,9 +781,9 @@ ul {
     background: transparent;
     color:snow;
     opacity:1;
-  }
+}
 
-  ul .booking-card .informations-container .title::after {
+ul .booking-card .informations-container .title::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -774,24 +795,24 @@ ul {
     background: snow;
     opacity:0.8;
     margin-bottom:3px;
-  }
-  ul .booking-card .informations-container .price {
+}
+ul .booking-card .informations-container .price {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-  }
-  ul .booking-card .informations-container .price .icon {
+}
+ul .booking-card .informations-container .price .icon {
     margin-right: 10px;
-  }
-  ul .booking-card .informations-container .more-information {
+}
+ul .booking-card .informations-container .more-information {
     opacity: 0;
     transition: .3s;
-  }
-  ul .booking-card .informations-container .more-information .info-and-date-container {
+}
+ul .booking-card .informations-container .more-information .info-and-date-container {
     display: flex;
-  }
-  ul .booking-card .informations-container .more-information .info-and-date-container .box {
+}
+ul .booking-card .informations-container .more-information .info-and-date-container .box {
     flex: 1 0;
     padding: 15px;
     margin-top: 20px;
@@ -801,36 +822,75 @@ ul {
     background: white;
     font-weight: bold;
     font-size: 0.9em;
-  }
-  ul .booking-card .informations-container .more-information .info-and-date-container .box .icon {
+}
+ul .booking-card .informations-container .more-information .info-and-date-container .box .icon {
     margin-bottom: 5px;
-  }
-  ul .booking-card .informations-container .more-information .info-and-date-container .box.info {
+}
+ul .booking-card .informations-container .more-information .info-and-date-container .box.info {
     color: #ec992c;
     margin-right: 10px;
-  }
-  ul .booking-card .informations-container .more-information .disclaimer {
+}
+ul .booking-card .informations-container .more-information .disclaimer {
     margin-top: 20px;
     font-size: 1.4em;
-  }
-  ul .booking-card:hover::before {
+}
+ul .booking-card:hover::before {
     background: rgba(0, 0, 0, 0.88);
     opacity:1;
     color:white;
     font-weight: 700;
-  }
-  ul .booking-card:hover .book-container .content {
+}
+ul .booking-card:hover .book-container .content {
     opacity: 0.9;
     transform: translateY(0px);
-  }
-  ul .booking-card:hover .informations-container {
+}
+ul .booking-card:hover .informations-container {
     transform: translateY(0px);
-  }
-  ul .booking-card:hover .informations-container .more-information {
+}
+ul .booking-card:hover .informations-container .more-information {
     opacity: 1;
-  }
+}
   /* .informations-container h2:hover{
     display:block;
     color:#0a4870;
     font-size: 30px;
   } */
+
+  /* JOB-DETAILS */
+.job_detail{
+    border-radius: 12px;
+    display:flex;
+    width:50%;
+    height:1000px;
+    margin-top:120px;
+    transform: translateX(50%);
+    flex-direction: column; 
+    background: linear-gradient(rgba(0,0,0,0.98),rgba(0,0,0,0.94));
+    overflow: hidden;    
+    color:snow;
+    margin-bottom: 100px;
+    opacity:0.9;
+
+}
+.job_head:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    width: 180px;
+    margin: auto;
+    background: snow;
+    opacity:0.8;
+    margin-bottom:3px;
+}
+.job_head{
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 2.2em;
+    background: transparent;
+    color:snow;
+    opacity:1;
+}
