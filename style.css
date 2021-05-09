@@ -860,17 +860,16 @@ ul .booking-card:hover .informations-container .more-information {
 .job_detail{
     border-radius: 12px;
     display:flex;
-    width:50%;
-    height:1000px;
+    width:86%;
     margin-top:120px;
-    transform: translateX(50%);
+    /* transform: translateX(50%); */
     flex-direction: column; 
     background: linear-gradient(rgba(0,0,0,0.98),rgba(0,0,0,0.94));
     overflow: hidden;    
     color:snow;
     margin-bottom: 100px;
     opacity:0.9;
-
+    margin-left: 105px;
 }
 .job_head:after{
     content: '';
@@ -889,8 +888,25 @@ ul .booking-card:hover .informations-container .more-information {
     position: relative;
     padding-bottom: 10px;
     margin-bottom: 10px;
+    margin-top:10px;
     font-size: 2.2em;
     background: transparent;
     color:snow;
     opacity:1;
+}
+.job_info{
+    margin-left:33px;
+    margin-bottom:3px;
+}
+.detail_response{
+    background: lightgray;
+    width: 90%;
+    justify-content: center;
+    margin-left:33px;
+    height:max-content;
+    color: black;
+    border-radius: 6px;
+    text-align: center;
+    padding:15px;
+    margin-bottom:25px;
 }
