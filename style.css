@@ -864,11 +864,11 @@ ul .booking-card:hover .informations-container .more-information {
     margin-top:120px;
     /* transform: translateX(50%); */
     flex-direction: column; 
-    background: linear-gradient(rgba(0,0,0,0.98),rgba(0,0,0,0.94));
+    background: #000000;
+    /* background: linear-gradient(rgba(0,0,0,0.98),rgba(0,0,0,0.94)); */
     overflow: hidden;    
     color:snow;
     margin-bottom: 100px;
-    opacity:0.9;
     margin-left: 105px;
 }
 .job_head:after{
@@ -880,8 +880,8 @@ ul .booking-card:hover .informations-container .more-information {
     height: 3px;
     width: 180px;
     margin: auto;
-    background: snow;
-    opacity:0.8;
+    background: #FFFFFF;
+    opacity:0.85;
     margin-bottom:3px;
 }
 .job_head{
@@ -891,22 +891,29 @@ ul .booking-card:hover .informations-container .more-information {
     margin-top:10px;
     font-size: 2.2em;
     background: transparent;
-    color:snow;
-    opacity:1;
+    color:#FFFFFF;
+    opacity:0.85;
 }
 .job_info{
-    margin-left:33px;
+    display: flex;
+    margin-left:105px;
     margin-bottom:3px;
+    color:#FFFFFF;
+    opacity:0.85;
+    float:left;
 }
 .detail_response{
-    background: lightgray;
-    width: 90%;
-    justify-content: center;
-    margin-left:33px;
+    display: flex;
+    background: lightgrey;
+    justify-content: center !important;
+    text-align: center !important;
+    align-items: center !important;
+    align-self: center;
+    width: 1100px;
     height:max-content;
     color: black;
     border-radius: 6px;
-    text-align: center;
+    text-align: center; 
     padding:15px;
     margin-bottom:25px;
 }
