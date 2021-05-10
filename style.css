@@ -686,7 +686,7 @@ select option{
     padding:none;
 }
 #pincode_lookup:focus , .search_btn:focus, #job_lookup:focus, input:focus{
-    outline:none;
+    outline:0;
 } 
 
 /* new dashboard grid */
@@ -746,7 +746,7 @@ ul .booking-card .book-container .content .btn {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 20px;
-    outline: none;
+    outline: 0;
     color: white;
     background-color: #000000;
     cursor: pointer;
@@ -936,7 +936,7 @@ ul .booking-card:hover .informations-container .more-information {
     opacity: 0.85;
     margin-bottom: 30px;
     margin-left: 115px;
-    outline:none;
+    outline:0;
 }
 .edit_btn{
     width:200px;
@@ -950,7 +950,7 @@ ul .booking-card:hover .informations-container .more-information {
     opacity: 0.85;
     margin-bottom: 30px;
     margin-left: 115px;
-    outline: none;
+    outline: 0;
 }
 .edit_btn:hover, .delete_btn:hover,.apply:hover,.login-submit:hover,.reg-submit:hover{
     background: lightgray;
@@ -958,7 +958,7 @@ ul .booking-card:hover .informations-container .more-information {
     color: black;
 }
 button:focus{
-    outline:none;
+    outline:0;
     border:none;
     text-decoration: none;
 }
