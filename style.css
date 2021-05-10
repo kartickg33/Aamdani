@@ -428,14 +428,9 @@ form div{
 }
 /*----------------------Application Response-------------------*/
 
-.tick{
-    float:left;
-    transform: translate(55%,50%);
-}
-
 .response{
     float:left;
-    transform: translate(55%,70%);
+    transform: translate(75%,90%);
     font-weight:700;
     font-size:33px;
 }
@@ -444,14 +439,14 @@ form div{
     font-weight:400;
     font-size:28px;
     float:left;
-    transform: translate(-35.6%,90%);
+    transform: translate(-19.6%,115%);
 }
 
 .res2{
     font-weight:400;
     font-size:20px;
     float:left;
-    transform: translate(-246.6%,120%);
+    transform: translate(-217.6%,150%);
 }
 
 .res{
